@@ -147,3 +147,8 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Local reference checkout and browser review artifacts
+.reference-email/
+meme-generator/test-results/
+meme-generator/playwright-report/

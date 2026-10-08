@@ -1,0 +1,47 @@
+:root {
+  font-family:
+    'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', 'Comic Neue', Arial,
+    sans-serif;
+  color: #000;
+  background: #000066;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  color-scheme: light;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  padding: 0 18px;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+button,
+a,
+input,
+textarea,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid #b000b0;
+  outline-offset: 3px;
+}
+button {
+  touch-action: manipulation;
+}
+@media (max-width: 500px) {
+  body {
+    padding: 0 8px;
+  }
+}
